@@ -1,1 +1,7 @@
-npx wrangler deploy --assets=./public --compatibility-date=2026-10-28 --name=my-site
+   {
+     "name": "affen",
+     "compatibility_date": "2026-10-28",
+     "assets": {
+       "directory": "./dist"
+     }
+   }
