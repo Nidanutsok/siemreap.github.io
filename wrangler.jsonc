@@ -1,7 +1,1 @@
-{
-  "name": "my-site",
-  "compatibility_date": "2026-10-28",
-  "assets": {
-    "directory": "index.html"
-  }
-}
+npx wrangler deploy --assets=./public --compatibility-date=2026-10-28 --name=my-site
