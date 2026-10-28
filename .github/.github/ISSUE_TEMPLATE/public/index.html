@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Site</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+    img, video { width: 100%; height: auto; border-radius: 8px; margin-bottom: 1.5rem; }
+  </style>
+</head>
+<body>
+  <h1>My Site</h1>
+
+  <h2>Photo</h2>
+  <img src="/images/photo.jpg" alt="Describe the photo" loading="lazy">
+
+  <h2>Video</h2>
+  <video controls preload="metadata" poster="/images/photo.jpg">
+    <source src="/videos/clip.mp4" type="video/mp4">
+    Your browser doesn't support video.
+  </video>
+</body>
+</html>
